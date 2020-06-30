@@ -1,0 +1,15 @@
+shrek M
+fiona F
+burro M 
+principe_encantado M
+raposa M
+rainha F
+rei M
+fada_madrinha F
+irma_feia M
+gato_botas M
+tres_porquinhos M
+lobo_mau M
+biscoito M
+pinoquio M
+padeiro M

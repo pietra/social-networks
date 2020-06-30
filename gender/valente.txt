@@ -1,0 +1,18 @@
+valente F
+rainha F
+bruxa F
+rei_fergus M
+trigemeos M
+maudie F
+mordu M
+angus M
+wee_dingwall M
+macguffin M
+macintosh M
+jovem_macintosh M
+dingwaal M
+jovem_macguffin M
+
+
+
+

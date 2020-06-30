@@ -1,0 +1,16 @@
+vers F
+yon_rogg M
+inteligence F
+soh_larr M
+att_lass M
+minn_erva F
+bron_char M
+monica F 
+soren M
+lawson F
+maria F
+talos M
+korath M
+ronan M
+nick_fury M
+
