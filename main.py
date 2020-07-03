@@ -1,11 +1,21 @@
 from igraph import *
+import sys
+import ast
 
 # Graphs
+film = sys.argv[1]
 
-graph = Graph.Read_Ncol("graphs/teste.ncol",names=True,directed=False,weights=True)
+graph = Graph.Read_Ncol("graphs/"+film+".ncol", names=True,directed=False,weights=True)
 
-# Coloring vertex
+# Adding gender to vertices
+genders_file = open("gender/"+film+".txt", "r")
 
+for line in genders_file:
+    line = line.replace("\n", "").split(" ")
+    vertex = graph.vs.find(name=line[0])
+    vertex["gender"] = line[1]
+
+# Coloring edges
 # Weight = 5
 graph.es["color"] = "black"
 
@@ -25,8 +35,10 @@ green_edges["color"] = "green"
 yellow_edges = graph.es.select(weight=4)
 yellow_edges["color"] = "yellow"
 
-# Plot
+# Coloring vertices
+color_dict = {"M": "green", "F": "orange"}
+graph.vs["color"] = [color_dict[gender] for gender in graph.vs["gender"]]
 
-#print(graph.vs["name"])
+# Plot
 #print(graph.es["weight"])
 plot(graph, vertex_label=graph.vs["name"])
