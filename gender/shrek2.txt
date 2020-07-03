@@ -6,7 +6,7 @@ raposa M
 rainha F
 rei M
 fada_madrinha F
-irma_feia M
+irma_feia F
 gato_botas M
 tres_porquinhos M
 lobo_mau M
