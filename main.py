@@ -1,5 +1,6 @@
 from igraph import *
 import sys
+import pdb
 import ast
 
 # Graphs
@@ -11,7 +12,7 @@ graph = Graph.Read_Ncol("graphs/"+film+".ncol", names=True,directed=False,weight
 genders_file = open("gender/"+film+".txt", "r")
 
 for line in genders_file:
-    line = line.replace("\n", "").split(" ")
+    line = line.replace("\n", "").replace("\r", "").split(" ")
     vertex = graph.vs.find(name=line[0])
     vertex["gender"] = line[1]
 
