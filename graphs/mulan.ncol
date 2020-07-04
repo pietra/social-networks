@@ -2,7 +2,7 @@ general-li imperador 3
 chi-fu imperador 3
 chi-fu general-li 3
 pai mulan 5
-mae vo 1
+mae avo 1
 mulan mae 1
 avo mulan 2
 casamenteira mulan 2
@@ -11,13 +11,13 @@ chi-fu pai 3
 chi-fu mulan 5
 mulan pai 5
 mulan mae 5
-mulan vo 5
+mulan avo 5
 pai mae 5
-pai vo 5
-mae vo 5
-mae vo 5
+pai avo 5
+mae avo 5
+mae avo 5
 mae pai 5
-pai vo 5
+pai avo 5
 mushu grande_ancestral 3
 mushu mulan 5
 yao chien-po 5

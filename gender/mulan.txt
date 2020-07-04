@@ -4,13 +4,12 @@ imperador M
 chi-fu M
 pai M
 mae F
-vo F
 avo F
 casamenteira F
 mushu M
 grande_ancestral M
 yao M
 chien-po M
-ling M 
+ling M
 li M
 shan_yu M
